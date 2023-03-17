@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- *The main function serves as the starting point for program execution
+ *The main prints (Programming is like building a multilingual puzzle) using puts function
  */
 int main(void)
 {
