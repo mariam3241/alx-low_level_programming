@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
- *The main prints (Programming is like building a multilingual puzzle) using puts function
+ *main: prints (Programming is like building a multilingual puzzle)
+ *using puts function
  */
 int main(void)
 {
