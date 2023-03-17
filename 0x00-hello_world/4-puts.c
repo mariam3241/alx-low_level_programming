@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  *main - prints (Programming is like building a multilingual puzzle)
  *using puts function
  *return: 0 (Success)
