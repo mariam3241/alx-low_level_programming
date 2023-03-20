@@ -8,7 +8,7 @@ int main(void)
 {
 char str[100] = "0123456789abcdef";
 int i;
-for (i = 0 ; i < 15 ; i++)
+for (i = 0 ; i <= 15 ; i++)
 {
 putchar(str[i]);
 }
