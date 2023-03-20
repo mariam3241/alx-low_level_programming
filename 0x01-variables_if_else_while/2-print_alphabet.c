@@ -8,8 +8,8 @@
 int main(void)
 {
 int i = 0;
-char str[100] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-for (i = 0 ; i < 27 ; i++)
+char str[100] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
+for (i = 0 ; i < 26 ; i++)
 {
 putchar(str[i] + 32);
 }
