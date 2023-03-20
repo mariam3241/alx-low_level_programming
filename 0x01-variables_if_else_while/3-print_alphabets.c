@@ -8,11 +8,14 @@
 int main(void)
 {
 char str[100] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-int i = 0;
+int i, c;
 for (i = 0 ; i < 26 ; i++)
 {
 putchar(str[i] + 32);
-putchar(str[i]);
+}
+for (c = 0 ; c < 26 ; c++)
+{
+putchar(str[c]);
 }
 putchar('\n');
 return (0);
