@@ -10,12 +10,12 @@ while (n != 0)
 {
 if (n < 0)
 {
+_putchar(45);
 return (-1);
-_putchar('-');
 }
+_putchar(43);
 return (1);
-_putchar('+');
 }
+_putchar(48);
 return (0);
-_putchar('0');
 }
