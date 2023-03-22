@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - a fun that prints the sign of a number
- * @c: parameter
+ * @n: parameter
  * Return: 1 if n is greater than 0 and 0 if n is 0 and -1 otherwise
  */
 int print_sign(int n)
