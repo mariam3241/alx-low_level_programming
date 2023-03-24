@@ -1,4 +1,4 @@
-#include <string.h>
+#include "main.h"
 /**
  * print_numbers - a fun that prints numbers
  *
