@@ -7,14 +7,17 @@
 
 void print_line(int n)
 {
-int a;
-while (n <= 0)
+int i;
+if (i <= 0)
 {
 _putchar('\n');
 }
-for (a = 0 ; a < n ; a++)
+else
 {
-_putchar(95);
+for (i = 0 ; i < n ; i++)
+{
+_putchar('_');
 }
 _putchar('\n');
+}
 }
