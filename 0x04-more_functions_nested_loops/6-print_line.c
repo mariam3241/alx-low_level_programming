@@ -12,7 +12,7 @@ while (n > 0)
 {
 for (a = 0 ; a <= n ; a++)
 {
-_putchar('_');
+_putchar(95);
 }
 _putchar('\n');
 }
