@@ -1,6 +1,6 @@
 #include "main.h"
- /**
-  * reset_to_98 - a fun to reset the value of an int
+/**
+  * reset_to_98 - a fun to reset the value of an int into 98
   * @n: prameter of type int
   * Return: void
   */
