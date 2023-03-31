@@ -1,0 +1,25 @@
+#include "main.h"
+
+/**
+ * _strncpy - a fun that copies a string
+ * @dest: parameter
+ * @src: parameter
+ * @n: parameter
+ * Return: string value
+ */
+
+char *_strncpy(char *dest, char *src, int n)
+{
+int i = 0;
+while (i < n && str[i] != '\0')
+{
+dest[i] = src[i];
+i++;
+}
+while (i < n)
+{
+dest[i] = '\0';
+i++;
+}
+return (dest);
+}
