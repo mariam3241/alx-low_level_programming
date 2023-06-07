@@ -22,8 +22,7 @@ return (1);
 
 if (n)
 {
-fact = n * (n - 1);
-factorial(n - 1);
+fact = n * factorial(n - 1);
 }
 return (fact);
 }
