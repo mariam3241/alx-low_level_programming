@@ -12,7 +12,7 @@ int counter = 0;
 if (*s)
 {
 counter = counter + 1;
-counter + = _strlen_recursion(s + 1);
+counter += _strlen_recursion(s + 1);
 }
 return (counter);
 }
