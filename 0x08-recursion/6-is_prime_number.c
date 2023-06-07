@@ -32,6 +32,7 @@ return (prime(number, i - 1));
 
 int is_prime_number(int n)
 {
+int number;
 if (n <= 1)
 {
 return (0);
