@@ -28,11 +28,9 @@ return (sqr(n, i + 1));
 
 int _sqrt_recursion(int n)
 {
-int sqr;
 if (n < 0)
 {
 return (-1);
 }
-sqr = (sqr(n, 0));
-return (sqr);
+return (sqr(n, 0));
 }
