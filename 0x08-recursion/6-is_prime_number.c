@@ -3,12 +3,12 @@
 
 /**
  * prime - a fun that checks the prime number
- * @number: parameter
+ * @n: parameter
  * @i: parameter
  * Return: 0 or 1
  */
 
-int prime(int number, int i)
+int prime(int n, int i)
 {
 
 if (i == 1)
@@ -16,11 +16,11 @@ if (i == 1)
 return (1);
 }
 
-if (number % i == 0 && i > 0)
+if (n % i == 0 && i > 0)
 {
 return (0);
 }
-return (prime(number, i - 1));
+return (prime(n, i - 1));
 }
 
 
@@ -32,10 +32,9 @@ return (prime(number, i - 1));
 
 int is_prime_number(int n)
 {
-int number;
 if (n <= 1)
 {
 return (0);
 }
-return (prime(number, n - 1));
+return (prime(n, n - 1));
 }
