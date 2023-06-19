@@ -1,3 +1,6 @@
+#ifndef DOG_H
+#define DOG_H
+
 /**
  *struct dog - a new type for dog informations
  *@name: element
@@ -11,3 +14,5 @@ struct dog
 		float age;
 		char *owner;
 	};
+
+#endif
